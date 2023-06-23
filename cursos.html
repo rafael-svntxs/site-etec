@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="cursos.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  body{
+    background-color: #F2F2F2;
+  }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<title>Cursos</title>
+
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-success">
+    <div class="container-fluid">
+     <!-- dropsdow -->
+      <a class="h10 text-white navbar-brand" href="index.html"> <img style="height: 100px; padding-top: 20px" src="logo.png" alt="Logo"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+          <li class="nav-item dropdown">
+            <a class="text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+              <strong>A Escola</strong>
+            </a>
+              <ul class="dropdown-menu">
+              <li><a class="h6 dropdown-item" href="escola.html#row">Calendário</a></li></h6>
+              <li><hr class="h6 dropdown-divider"></li>
+              <li><a class="h6 dropdown-item" href="escola.html#row">Horário Escolar</a></li></h6>
+              <li><hr class="h6 dropdown-divider"></li>
+              <li><h6><a class="h6 dropdown-item" href="escola.html#row">Observatório</a></li></h6>
+              <li><hr class="h6 dropdown-divider"></li>
+              <li><a class="h6 dropdown-item" href="escola.html#row">Regimento Comum</a></li></h6>
+              <li><hr class="h6 dropdown-divider"></li></h6>
+              <li><a class="h6 dropdown-item" href="escola.html#row">APM</a></li></h6>
+              <li><hr class="h6 dropdown-divider"></li>
+              <li><a class="h6 dropdown-item" href="escola.html#row">Conselho de Escola</a></li></h6>
+              <li><hr class="h6 dropdown-divider"></li></h6>
+              <li><a class="h6 dropdown-item" href="escola.html#gremio">Grêmio Estudantil</a></li></h6>
+            </ul>
+          </li>
+  
+          <li class="nav-item">
+            <a class="text-white nav-link active" href="cursos.html" aria-current="page" role="button" aria-expanded="false">
+              <strong>Cursos</strong>
+            </a>
+           </li>
+          <li class="nav-item">
+            <a class="text-white nav-link active" href="index.html#vestibulinho1" aria-current="page" role="button" aria-expanded="false">
+              <strong>Vestibulinho</strong>
+            </a>
+  
+            <li class="nav-item">
+              <a class="text-white nav-link active" href="coordenacao.html" aria-current="page" role="button" aria-expanded="false">
+                <strong>Coordenação</strong>
+              </a>
+  
+          <li class="nav-item">
+            <a class="text-white nav-link active" href="direcao.html" aria-current="page" role="button" aria-expanded="false">
+              <strong>Direção</strong>
+            </a>
+  
+          <li class="nav-item">
+            <a class="text-white nav-link active" href="secretaria.html" role="button" aria-current="page" aria-expanded="false">
+              <strong>Secretaria</strong>
+            </a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="text-white nav-link active" href="tcc.html" role="button" aria-current="page" aria-expanded="false">
+              <strong>TCC</strong>
+            </a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="text-white nav-link active" href="#rodape" aria-current="page" role="button" aria-expanded="false">
+              <strong>Contato</strong>
+            </a>
+        </ul>
+        
+        <a href="https://www.cps.sp.gov.br/">
+        <img style="max-height: 60px; max-width:150px; padding-top: 10px; " class="img-fluid" src="cps.png" alt="CPS">
+      </a>
+      <a href="https://www.saopaulo.sp.gov.br/">
+        <img style="max-height: 60px; max-width:183px; padding-left: 25px; " class="img-fluid" src="saopaulo.png" alt="SP">
+      </a>
+      </div>
+    </div>
+  </nav>
+<!--Fim da Navbar-->
+<br>
+<br>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-1"></div>
+  <div class="col-sm-2">
+    <h1><strong>Cursos:</strong></h1>
+  </div>
+</div>
+<br>
+<br>
+  <!--Primeira fileira de cursos-->
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="informatica.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalInformatica">
+            <div class="card-body">
+              <h5 class="card-title">Informática para internet ETIM/MTEC</h5>
+              <p class="card-text">Clique na imagem acima para conhecer um pouco sobre este curso.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado em 2023</small>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modalInformatica" tabindex="-1" aria-labelledby="modalInformaticaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalInformaticaLabel">Sobre o curso de Informática para internet</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>O Ensino Médio integrado da ETEC de Itanhaém oferece ao aluno todo
+                  conhecimento da base nacional comum do ensino médio, porém oferece
+                  também a Educação Profissional, o que é uma forma de fazer o ensino
+                  médio (formação básica) junto com a educação profissional (formação
+                  técnica), um atalho para os alunos, pois ao concluírem o ensino médio, já
+                  terão uma formação profissional técnica.</p>
+                  <p>O Técnico em informática para internet desenvolve e realiza manutenções
+                  em websites, portais na internet e intranet. Utiliza ferramentas de
+                  desenvolvimento de projetos para construir soluções que auxiliam o
+                  processo de criação de interfaces e aplicativos empregados no comércio
+                  e marqueting eletrônicos.</p>
+                  <p>O processo de criação de sites e o de desenvolvimento de programas que 
+                  podem ser utilizados em páginas na internet. Para programar, o aluno vai 
+                  estudar raciocínio lógico e linguagens de programação, que utiliza comandos 
+                  para desenvolver funcionalidades e dar forma a um site.</p>
+                  <p>Além disso, o estudante aprenderá um pouco de design com o objetivo de 
+                  tornar a página mais agradável e fácil de ser utilizada. O aluno aprenderá 
+                  ainda como criar e alterar bancos de dados que vão alimentar os sites. 
+                  Noções de marketing digital para a web e de empreendedorismo também serão 
+                  ensinadas ao longo do curso.</p>
+                  <br>
+                  <a href="https://drive.google.com/uc?export=download&id=1FBZfSyvzC1uxO5GTNFP51On_Or8gHPXB" download><img src="./etec-cursos/btn-plano.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/calendario-informatica.pdf" download><img src="./etec-cursos/btn-calendario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/horario-informatica.pdf" download><img src="./etec-cursos/btn-horario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="coordenacao.html"><img src="./etec-cursos/btn-coordenacao.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="https://www.vestibulinhoetec.com.br/home/"><img src="./etec-cursos/btn-vestibulinho.png" style="padding: px; max-width: 250px;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="meioambiente.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalMeioambiente">
+            <div class="card-body">
+              <h5 class="card-title">Meio ambiente ETIM/MTEC</h5>
+              <p class="card-text">Clique na imagem acima para conhecer um pouco sobre este curso.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado em 2023</small>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modalMeioambiente" tabindex="-1" aria-labelledby="modalMeioambienteLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalMeioambienteLabel">Sobre o curso de Meio ambiente</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>O Ensino Médio integrado da ETEC de Itanhaém oferece ao aluno todo
+                  conhecimento da base nacional comum do ensino médio, porém oferece
+                  também a Educação Profissional, o que é uma forma de fazer o ensino
+                  médio (formação básica) junto com a educação profissional (formação
+                  técnica), um atalho para os alunos, pois ao concluírem o ensino médio, já
+                  terão uma formação profissional técnica.</p>
+                  <p>O Técnico em Meio Ambiente é o profissional que coleta, armazena e interpreta
+                  informações, dados e documentações ambientais. Colabora na elaboração de laudos,
+                  relatórios, estudos e no acompanhamento e execução de sistemas de
+                  gestão ambiental. Atua na organização de programas de educação ambiental, de
+                  conservação e preservação de recursos naturais, de redução, reuso e reciclagem.
+                  Identifica as intervenções ambientais, analisa suas consquências e operacionaliza
+                  a execução de ações para preservação, conservação, otimização, minimização e 
+                  remediação dos seus efeitos.</p>
+                  <p>O curso tem base em duas disciplinas principais: biologia e química. A primeira, 
+                  para aprender sobre a diversidade da vida, compreensão de ecossistema, as 
+                  relações entre os seres vivos e ciclo da matéria no ambiente. A segunda, para 
+                  compreensão de métodos de separação de matéria.</p>
+                  <p>O aluno também aprenderá interpretação de texto para entender normas técnicas, 
+                  resoluções, portarias e decretos. Também fazem parte da grade aulas direcionadas 
+                  a equipamentos de laboratórios, coletas padronizadas, poluição atmosférica e mudanças climáticas.</p>
+                  <br>
+                  <a href="https://drive.google.com/uc?export=download&id=1UcoQoYUr7YOFLW-3yiLYI8dQuQmFaonq" download><img src="./etec-cursos/btn-plano.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/calendario-meio.pdf" download><img src="./etec-cursos/btn-calendario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/horario-meio.pdf" download><img src="./etec-cursos/btn-horario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="coordenacao.html"><img src="./etec-cursos/btn-coordenacao.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="https://www.vestibulinhoetec.com.br/home/"><img src="./etec-cursos/btn-vestibulinho.png" style="padding: px; max-width: 250px;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="mtec.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalMtec">
+            <div class="card-body">
+              <h5 class="card-title">Administração ETIM/MTEC</h5>
+              <p class="card-text">Clique na imagem acima para conhecer um pouco sobre este curso.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado em 2023</small>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modalMtec" tabindex="-1" aria-labelledby="modalMtecLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalMtecLabel">Sobre o curso de Administração ETIM/MTEC</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>O Ensino Médio integrado da ETEC de Itanhaém oferece ao aluno todo
+                  conhecimento da base nacional comum do ensino médio, porém oferece
+                  também a Educação Profissional, o que é uma forma de fazer o ensino
+                  médio (formação básica) junto com a educação profissional (formação
+                  técnica), um atalho para os alunos, pois ao concluírem o ensino médio, já
+                  terão uma formação profissional técnica.</p>
+                  <p>O Técnico em Administração adota postura ética na execução da rotina
+                  administrativa, na elaboração do planejamento da produção e materiais,
+                  recursos humanos, financeiros e mercadológicos. Realiza atividades de
+                  controles e auxilia nos processos de direção utilizando ferramentas da
+                  informática básica. Fomenta ideias e práticas empreendedoras.</p>
+                  <p>Como funcionam as organizações, desde empresas privadas até ONGs, 
+                  passando por órgãos públicos, comércio e indústria. O estudante vai 
+                  precisar de conhecimentos de língua portuguesa, matemática, história 
+                  e geografia para compreender os principais assuntos do curso, como 
+                  história da administração, evolução das organizações ao longo do tempo, 
+                  contabilidade, leis que regulam o funcionamento das empresas e redação de documentos.</p>
+                  <p>O aluno vai aprender ainda a analisar as chances de um negócio ou 
+                  produto ser bem-sucedido e o comportamento do consumidor. Estudará 
+                  também técnicas de atendimento ao cliente, empreendedorismo (iniciativas 
+                  para realizar novos negócios) e como uma organização planeja alcançar seus 
+                  objetivos e define suas metas para o futuro.</p>
+                  <br>
+                  <a href="https://drive.google.com/uc?export=download&id=1bAEVqzimnwU6O2F9BIigY0gonr0Gj6cE" download><img src="./etec-cursos/btn-plano.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/calendario-adm.pdf" download><img src="./etec-cursos/btn-calendario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/horario-adm.pdf" download><img src="./etec-cursos/btn-horario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="coordenacao.html"><img src="./etec-cursos/btn-coordenacao.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="https://www.vestibulinhoetec.com.br/home/"><img src="./etec-cursos/btn-vestibulinho.png" style="padding: px; max-width: 250px;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--Segunda fileira de cursos-->
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="adm.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalAdm">
+            <div class="card-body">
+              <h5 class="card-title">Administração - Noturno</h5>
+              <p class="card-text">Clique na imagem acima para conhecer um pouco sobre este curso.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado em 2023</small>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modalAdm" tabindex="-1" aria-labelledby="modalAdmLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalAdmLabel">Sobre o curso de Administração - Noturno</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Ensino técnico modular em Administração tem duração de 3 semestres (3 Módulos).</p>
+                    <p>O Técnico em Administração adota postura ética na execução da rotina
+                    administrativa, na elaboração do planejamento da produção e materiais,
+                    recursos humanos, financeiros e mercadológicos. Realiza atividades de
+                    controles e auxilia nos processos de direção utilizando ferramentas da
+                    informática básica. Fomenta ideias e práticas empreendedoras.</p>
+                    <p>Como funcionam as organizações, desde empresas privadas até ONGs, 
+                    passando por órgãos públicos, comércio e indústria. O estudante vai 
+                    precisar de conhecimentos de língua portuguesa, matemática, história 
+                    e geografia para compreender os principais assuntos do curso, como 
+                    história da administração, evolução das organizações ao longo do tempo, 
+                    contabilidade, leis que regulam o funcionamento das empresas e redação de documentos.</p>
+                    <p>O aluno vai aprender ainda a analisar as chances de um negócio ou 
+                    produto ser bem-sucedido e o comportamento do consumidor. Estudará 
+                    também técnicas de atendimento ao cliente, empreendedorismo (iniciativas 
+                    para realizar novos negócios) e como uma organização planeja alcançar seus 
+                    objetivos e define suas metas para o futuro.</p>
+                    <br>
+                    <a href="https://drive.google.com/uc?export=download&id=17ZdQu_sZAGyV4d8Njo-HmqqPO-XPaXem" download><img src="./etec-cursos/btn-plano.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="./etec-cursos/calendario-adm1.pdf" download><img src="./etec-cursos/btn-calendario.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="./etec-cursos/horario-adm1.pdf" download><img src="./etec-cursos/btn-horario.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="coordenacao.html"><img src="./etec-cursos/btn-coordenacao.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="https://www.vestibulinhoetec.com.br/home/"><img src="./etec-cursos/btn-vestibulinho.png" style="padding: px; max-width: 250px;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="ds.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalDs">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento de sistemas</h5>
+              <p class="card-text">Clique na imagem acima para conhecer um pouco sobre este curso.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado em 2023</small>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modalDs" tabindex="-1" aria-labelledby="modalDsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalDsLabel">Sobre o curso de Desenvolvimento de sistemas</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>O ensino técnico modular em Desenvolvimento de sistemas tem duração de 3 semestres (3 Módulos).</p>
+                  <p>O técnico em desenvolvimento de sistemas é o profissional que analisa e
+                  projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de 
+                  informação. Utiliza ambientes de programação específicas. Modela, 
+                  implementa e mantém bancos de dados.</p>
+                  <p>É o profissional que analisa e projeta sistemas. Constrói, documenta, 
+                    realiza testes e mantém sistemas de informação. Utiliza ambientes de 
+                    desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.</p>
+                    <br>
+                    <a href="https://drive.google.com/uc?export=download&id=1Fb9ZYAO5kPAJBC43cjJs0y4MyXWJQ1AC" download><img src="./etec-cursos/btn-plano.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="./etec-cursos/calendario-ds.pdf" download><img src="./etec-cursos/btn-calendario.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="./etec-cursos/horario-ds.pdf" download><img src="./etec-cursos/btn-horario.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="coordenacao.html"><img src="./etec-cursos/btn-coordenacao.png" style="padding: px; max-width: 250px;"></a>
+                    <a href="https://www.vestibulinhoetec.com.br/home/"><img src="./etec-cursos/btn-vestibulinho.png" style="padding: px; max-width: 250px;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="farm.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#modalFarm">
+            <div class="card-body">
+              <h5 class="card-title">Farmácia</h5>
+              <p class="card-text">Clique na imagem acima para conhecer um pouco sobre este curso.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Atualizado em 2023</small>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modalFarm" tabindex="-1" aria-labelledby="modalFarmLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modalFarmLabel">Sobre o curso de Farmácia</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>O ensino técnico modular em Desenvolvimento de sistemas tem duração de 3 semestres (3 Módulos).</p>
+                  <p>O curso tem base na química, para maior compreensão sobre os elementos 
+                  utilizados em farmácias de manipulação; na biologia, para entender as reações 
+                  que as medicações causam no corpo humano; na matemática, para fazer cálculos de 
+                  miligramas na orientação aos pacientes e no inglês instrumental.</p>
+                  <p>O aluno também aprende sobre logística, ética e gestão farmacêutica.</p>
+                  <br>
+                  <a href="./etec-cursos/plano-farm.pdf" download><img src="./etec-cursos/btn-plano.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/calendario-farm.pdf" download><img src="./etec-cursos/btn-calendario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="./etec-cursos/horario-farm.pdf" download><img src="./etec-cursos/btn-horario.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="coordenacao.html"><img src="./etec-cursos/btn-coordenacao.png" style="padding: px; max-width: 250px;"></a>
+                  <a href="https://www.vestibulinhoetec.com.br/home/"><img src="./etec-cursos/btn-vestibulinho.png" style="padding: px; max-width: 250px;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <br>
+  <br>
+  <hr>
+<!--RODAPÉ-->
+<footer class="rodape" id="rodape">
+  <div class="conteudo-rodape">
+    <div class="coluna-rodape">
+      <h4><i class="fa fa-map-marker"></i> Localização</h4>
+      <p>Av. José Batista Campos, 1431 - Anchieta - Itanhaém/SP - CEP: 11740-000</p>
+    </div>
+    <div class="coluna-rodape">
+      <h4><i class="fa fa-phone"></i> Contato</h4>
+      <p> <a href="https://api.whatsapp.com/send?phone=551334264926">Whatsapp</a></p>
+      <p>(13) 3426-4926</p>
+    </div>
+    <div class="coluna-rodape">
+      <h4>Redes Sociais</h4>
+      <ul class="lista-redes-sociais">
+        <li><a href="https://www.facebook.com/etecdeitanhaem/?locale=pt_BR"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+        <li><a href="https://www.cps.sp.gov.br/etecs/etec-de-itanhaem/"><i class="fa fa-university"></i> CPS</a></li>
+        <li><a href="https://www.instagram.com/etecdeitanhaem/"><i class="fa fa-instagram"></i> Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="direitos-autorais">
+    <p>© 2023 ETEC Itanhaém. Brenno Oliveira. | Rafael Santos. | Eduardo S Ferreira.</p>
+  </div>
+</footer>
+</div>
+
+
+
+
+
+
+</body>
+</html>
